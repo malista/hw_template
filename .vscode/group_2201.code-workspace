@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"settings": {
+		"npm.autoDetect": "on",
+		"npm.enableScriptExplorer": true,
+		"npm.scriptExplorerAction": "run"
+}

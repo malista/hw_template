@@ -1,0 +1,43 @@
+.light{
+    width: 170px;
+    height: 475px;
+    background-color: #330000;
+}
+
+.lightbulb{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 10px;
+    outline: none;
+    border: none;
+    opacity: .4;
+}
+
+.light_green{
+    background-color: rgb(0, 77, 26);
+
+    &.active {
+        opacity: 0.9;
+    }
+}
+
+
+.light_yellow{
+    background-color: rgb(255, 255, 0);
+
+    &.active {
+        opacity: 0.9;
+    }
+}
+
+.light_red{
+    background-color: rgb(230, 0, 0);
+
+    &.active {
+       
+        opacity: 0.9;
+    }
+}
